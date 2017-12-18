@@ -1,0 +1,45 @@
+.section {
+	background-color: $light-grey;
+
+	
+	.last-element {
+		margin-bottom: 107px;
+	}
+
+	&__heading {
+		font-size: 60px;
+		line-height: 57px;
+		margin-top: 90px;
+	}
+
+	&__sub-heading {
+		font-size: 20px;
+		line-height: 24px;
+		margin-bottom: 56px;
+	}
+
+	&__lead {
+		font-size: 24px;
+		line-height: 22px;
+	}
+
+	&__text {
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	&__hr {
+		height: 0px;
+		border: 2px solid black;
+	}
+
+	&__text-span {
+		text-decoration: underline;
+	}
+
+	&__phone-img {
+		margin-top: 96px;
+		margin-bottom: 96px;
+		width: 309px;
+	}
+}

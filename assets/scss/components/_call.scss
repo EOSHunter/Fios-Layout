@@ -1,0 +1,30 @@
+.call {
+	background: white;
+
+	&__heading {
+		font-size: 36px;
+		line-height: 34px;
+		margin-top: 90px;
+	}
+
+	&__number {
+		color: $red;
+	}
+
+	&__lead {
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	&__review {
+		font-size: 12px;
+		line-height: 14px;
+		margin-bottom: 62px;
+	}
+
+	&__hr {
+		height: 0px;
+		border: 1px solid #CCCCCC;
+	}
+
+}

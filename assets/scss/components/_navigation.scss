@@ -1,0 +1,134 @@
+.navigation {
+
+	&__img-user {
+		margin-right: 5px;
+	    position: absolute;
+	    transform: translateY(-50%);
+	    top: 50%;
+	    left: -11px;
+	}
+
+	&__img-cart {
+		margin-right: 5px;
+	    position: absolute;
+	    transform: translateY(-50%);
+	    top: 50%;
+	    left: -18px;
+	}
+
+	&__shopping {
+		padding-left: 20px;
+	}
+
+	&__list1 {
+
+		li:hover {
+			border-top: 2px solid black;
+		}
+
+		li:first-child { //only targets the first li
+			border-top: 2px solid black;
+			display: inline-block;
+		}
+
+		li + li { //targets all elements except the first
+			margin-left: 32px;
+		}
+
+		li {
+			line-height: 14px;
+			font-size: 12px;
+			display: inline-block;
+			padding-top: 13px;
+		}
+
+		a {
+			display: inline-block;
+			color: $grey;
+			position: relative;
+		}
+	}
+
+	&__list2 {
+
+		li {
+			line-height: 14px;
+			font-size: 12px;
+			display: inline-block;
+			padding-top: 13px;
+			border-top: 2px solid white;
+			float: right;
+		}
+
+		li:hover {
+			border-top: 2px solid black;
+		}
+
+		li:first-child { //only targets the first li
+			margin-left: 45px;
+		}
+
+		li:nth-child(n+2) { //targets all elements except the first
+			margin-left: 30px;
+   			padding-left: 13px;
+		}
+
+		a {
+			display: inline-block;
+			color: $grey;
+			position: relative;
+		}
+	}
+
+	&__mid-nav {
+		li {
+			font-size: 24px;
+			margin-top: 55px;
+		}
+
+		li:nth-child(n+2) { //targets all elements except the first
+			margin-left: 43px;
+		}
+
+		a {
+			color: black;
+		}
+	}
+
+
+	&__number {
+		font-size: 24px;
+		margin-top: -26px;
+		float: right;
+	}
+
+	&__number-a {
+		color: $red;
+	}
+
+	&__call {
+		margin-left: 103px;
+		font-size: 12px;
+		margin-top: 46px;
+	}
+
+	&__home-icon {
+		display: inline-block;
+	}
+
+	&__availability {
+		display: inline-block;
+	}
+
+	&__check {
+		margin-left: 20px;
+	}
+
+	&__check-a {
+		color: $red;
+	}
+
+	[class*="column"]+[class*="column"]:last-child {
+   		float: left;
+	}
+}
